@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Rajput - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating">☕</div>
+    <div class="floating">💻</div>
+    <div class="floating">🚀</div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
+            <li><a href="#skills" onclick="scrollToSection('skills')">Skills</a></li>
+            <li><a href="#projects" onclick="scrollToSection('projects')">Projects</a></li>
+            <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Sahil Rajput</h1>
+            <p class="subtitle">Java Full Stack Developer & Computer Science Engineer</p>
+            <a href="#projects" class="cta-button" onclick="scrollToSection('projects')">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3 class="skill-category">Java Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>Core Java & Advanced Java Concepts</li>
+                        <li>Spring Boot, Spring MVC, Spring Security</li>
+                        <li>RESTful API Development</li>
+                        <li>JSP-Servlets & Collections Framework</li>
+                        <li>Microservices Architecture</li>
+                        <li>Spring AI Integration</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-category">Database & Persistence</h3>
+                    <ul class="skill-list">
+                        <li>Spring Data JPA & Hibernate</li>
+                        <li>JDBC & Connection Pooling</li>
+                        <li>MySQL, PostgreSQL, Oracle</li>
+                        <li>NoSQL Databases (MongoDB)</li>
+                        <li>Database Design & Query Optimization</li>
+                        <li>Transaction Management</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3 class="skill-category">Frontend & DevOps</h3>
+                    <ul class="skill-list">
+                        <li>React.js, HTML5, CSS3</li>
+                        <li>Thymeleaf Template Engine</li>
+                        <li>Docker Containerization</li>
+                        <li>Apache Maven & Gradle</li>
+                        <li>Apache Tomcat & Spring Boot Embedded Server</li>
+                        <li>Postman, Swagger Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📈</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Java Trading Platform</h3>
+                        <p class="project-description">Built a comprehensive trading platform using Spring Boot with real-time stock price retrieval and secure authentication. Implemented JDBC optimizations achieving 50% faster transaction processing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">RESTful APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">🏢</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Enterprise Java Application</h3>
+                        <p class="project-description">Developed scalable enterprise features using Spring ecosystem during internship. Optimized database queries with Spring JDBC, reducing backend response latency by 30%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring MVC</span>
+                            <span class="tech-tag">Spring JDBC</span>
+                            <span class="tech-tag">Hibernate</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">🤖</div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            AI-Powered Java Application
+                            <span class="in-progress-badge">In Progress</span>
+                        </h3>
+                        <p class="project-description">Currently developing an intelligent application using Spring AI integration with natural language processing capabilities. Working on implementing automated decision-making and AI-driven user recommendations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring AI</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">OpenAI Integration</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">JSON Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact">
+                <h2 class="section-title">Let's Connect & Collaborate</h2>
+                <p>Passionate about building scalable Java applications and innovative technology solutions. Let's create something amazing together!</p>
+                <div class="contact-links">
+                    <a href="mailto:srsahilrajput26@gmail.com" class="contact-link">
+                        <span>📧</span> Email
+                    </a>
+                    <a href="https://linkedin.com/in/sahil-rajput-45012724b" class="contact-link">
+                        <span>💼</span> LinkedIn
+                    </a>
+                    <a href="https://github.com/sahilrajput" class="contact-link">
+                        <span>💻</span> GitHub
+                    </a>
+                    <a href="tel:+917247246738" class="contact-link">
+                        <span>📱</span> +91-7247246738
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
